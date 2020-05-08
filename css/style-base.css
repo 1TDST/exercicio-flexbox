@@ -5,6 +5,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: rgba(39, 39, 39);
+  color: #ffffff;
 }
 
 body{
