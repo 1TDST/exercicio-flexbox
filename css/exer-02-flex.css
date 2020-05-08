@@ -9,15 +9,13 @@
   display: block;
   width: auto;
   border: solid 1px #ff0000;
-  margin: 5px;
+  margin: 20px;
   padding:  10px;
   max-width: 1100px;
 }
 
 b.box-1{
-  display: flex;
-  width: auto;
-  height: 500px;
+  flex-basis: 10%;
 }
 
 .box-2{
@@ -39,23 +37,15 @@ b.box-1{
 .box-child-3{
   flex-grow: 1;
   height: 250px;
-  margin-right: 30px;
-  margin-left: 30px;
 }
 .box-child-4{
   flex-grow: 1;
-  margin-right: 30px;
-  margin-left: 30px;
 }
 .box-child-5{
   flex-grow: 1;
-  margin-right: 30px;
-  margin-left: 30px;
 }
 .box-child-6{
   flex-grow: 1;
-  margin-right: 30px;
-  margin-left: 30px;
 }
 /*child of box-3*/
 .box-4{
