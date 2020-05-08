@@ -8,13 +8,12 @@
 }
 
 .box{
-    display: block;
-    width: auto;
-    border: solid 1px #ed145b;
-    margin: 10px;
-    margin-bottom: 0;
-    padding: 10px;
-    max-width: 1100px;
+  display: block;
+  width: auto;
+  border: solid 1px rgb(230, 30, 91);
+  margin: 10px;
+  padding: 10px;
+  max-width: 1100px;
 }
 
 
