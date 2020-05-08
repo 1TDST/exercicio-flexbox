@@ -15,7 +15,7 @@
 }
 
 .box-01 {
-  flex-basis: 20%;
+  flex-basis: 5%;
 }
 
 .box-02 {
@@ -37,7 +37,8 @@
 
 .box-child-03 {
   flex-grow: 1;
-  height: 250px;
+  height: 150px;
+
 }
 
 .box-child-04 {
