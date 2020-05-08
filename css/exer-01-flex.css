@@ -14,10 +14,11 @@
   max-width: 1100px;
 }
 
-b.box-1{
+.box-1{
   display: flex;
   width: auto;
-  height: 500px;
+  height: 70px;
+  margin-bottom: 20px;
 }
 
 .box-2{
@@ -38,7 +39,7 @@ b.box-1{
 /*child of box-3*/
 .box-child-3{
   flex-grow: 1;
-  height: 250px;
+  height: 200px;
   margin-right: 30px;
   margin-left: 30px;
 }
