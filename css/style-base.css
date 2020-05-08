@@ -16,6 +16,12 @@ h1,h2,h3{
   margin: 20px 10px;
 }
 
+nav ul li a{
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 .container{
   margin: auto;
   width: 1000px;
@@ -24,3 +30,5 @@ h1,h2,h3{
   background-color: #e8e9e8;
   border: solid 1px #cccccc;
 }
+
+
