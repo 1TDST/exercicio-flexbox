@@ -28,7 +28,6 @@ b.box-1{
 }
 .box-child-2{
   flex-grow: 2;
-  height: 100px;
 }
 /*child of box-2*/
 .box-3{
@@ -55,7 +54,7 @@ b.box-1{
 }
 /*child of box-3*/
 .box-child-7{
-  flex-basis: 450px;
+  flex-basis: 50%;
   border-top: 0;
   border-bottom: 0;
   height: 150px;
