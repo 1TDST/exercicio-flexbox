@@ -20,13 +20,13 @@
 
 
 .box-1{
-    width: 60%;
-    flex-basis: 60%;
+    width: 70%;
+    flex-basis: 70%;
     height: 50%;
 }
 
 .box-2{
-    width: 35%;
+    width: 25%;
     flex-grow: 1;
     height: 50%;
 }
