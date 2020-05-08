@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.box{
+  max-width: 1100px;
+  display: block;
+  border: solid 1px white;
+  margin:20px;
+  padding: 10px;
+}
+
+.top{
+  display: flex;
+}
+
+.top .box-1{
+  flex-grow: 3;
+  height: 55vh;
+}
+
+.top .box-2{
+  flex-grow: 1;
+}
+
+.middle{
+  display: flex;
+}
+
+.middle .boxes{
+  flex-grow: 1;
+  height: 25vh;
+}
+
+.bottom .box-3{
+  height: 25vh;
+}
