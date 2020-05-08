@@ -3,6 +3,7 @@
 .container {
   display: flex;
   flex-direction: column;
+  background-color: rgb(16, 183, 205);
 }
 
 .box {
@@ -12,6 +13,7 @@
   margin: 5px;
   padding: 10px;
   border: 1px solid;
+  border-color: rgb(119, 7, 125);
 }
 
 .box-01 {
