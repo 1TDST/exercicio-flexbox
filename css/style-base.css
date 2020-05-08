@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #fff;
+
 }
 
 body{
@@ -20,10 +21,7 @@ h1,h2,h3{
 .container {
   margin: auto;
   width: 1000px;
-  height: 1300px;
+  height: 1200px;
   padding: 10px;
-  border: 2px solid #cccc;
-  background-color: rgb(40, 177, 213);
-
-
+  border: 1px solid;
 }
