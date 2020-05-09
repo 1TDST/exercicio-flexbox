@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
 .container{
+
   color: #FFFFFF;
+
+
   display: flex;
   flex-direction: column;
 }
+
 
 .box{
  display: block;
@@ -23,6 +27,7 @@
   display: flex;
 }
 
+
 /*child of box-2*/
 .box-child-1{
   flex-basis: 140px;
@@ -33,6 +38,7 @@
   flex-grow: 2;
 }
 /*child of box-2*/
+
 
 .box-3{
   display: flex;
@@ -62,11 +68,13 @@
   justify-content: center;
 }
 
+
 /*child of box-4*/
 .box-child-7{
   flex-basis: 50%;
   border-top: 0;
   border-bottom: 0;
+
   height: 120px
 }
 /*child of box-4*/
