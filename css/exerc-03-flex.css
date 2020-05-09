@@ -3,17 +3,49 @@
 .container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(79, 210, 145);
+  background-color: rgb(184, 52, 231);
 }
 
 .box {
   display: flex;
-  margin: 20px;
-  padding: 10px;
-  height: 50px;
-  border: 1px solid;
+  margin: 5px;
+  padding: 5px;
+  width: 950px;
+  border: 2px solid;
+  border-color: rgb(163, 173, 164);
 }
 
 .box-1 {
-  
+  height: 8%;
+}
+
+.box-child-1{
+  flex-basis: 1200px;
+
+}
+
+.box-child-2 {
+  width: 30%;
+  flex-grow: 1;
+}
+
+.box-2 {
+  flex-basis: 4%;
+}
+
+.box-3 {
+  height: 20%;
+}
+
+.child-3 {
+}
+
+
+
+.box-4 {
+  flex-basis: 5%;
+}
+
+.box-6 {
+  flex-basis: 8.5%;
 }

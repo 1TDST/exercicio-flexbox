@@ -24,6 +24,7 @@ h1,h2,h3{
   text-decoration: none;
   background-color: rgb(140, 20, 223);
   color: rgb(254, 254, 254);
+  width: 200px;
 }
 
 .container {
