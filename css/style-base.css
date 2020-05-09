@@ -5,6 +5,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: rgba(39, 39, 39);
+  color: #ffffff;
 }
 
 body{
@@ -16,42 +18,12 @@ h1,h2,h3{
   margin: 20px 10px;
 }
 
-li{
-  text-decoration: none;
-}
-
-a{
-  text-decoration: none;
-}
-
-a:hover{
-  text-decoration: none;
-}
-
-a:visited{
-  text-decoration: none;
-}
-
-a:focus{
-  text-decoration: none;
-}
-
-nav{
-  display: block;
-}
-
-ul{
-  display: inline-block;
-  background-color: #dddddd;
-  padding: 10px 30px 10px 30px;
-  margin: 20px 40px auto 40px;
-}
 
 .container{
   margin: auto;
   width: 1000px;
-  height: auto;
+  height: 900px;
   padding: 10px;
-  background-color: #E8E9E8;
-  border: solid 1px #CCCCCC;
+  background-color: rgb(39, 39, 39);
+  border: solid 1px #cccccc;
 }

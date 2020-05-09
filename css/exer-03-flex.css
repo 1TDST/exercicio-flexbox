@@ -2,91 +2,108 @@
 
 .container{
     display: flex;
-    flex-direction: column;
-    padding: 5px;
+
+    flex-direction: column ;
 }
 
 .box{
-    display: block;
-    width: auto;
-    border: solid 1px #ff0000;
-    margin: 5px;
-    padding:  10px;
-    max-width: 1100px;
-}
-.box-middle{
-    flex-direction: row;
+  display: block;
+  width: auto;
+  border: solid 1px rgb(230, 30, 91);
+  margin: 10px;
+  padding: 10px;
+  max-width: 1100px;
 }
 
 .box-1{
-    display: inline-flex;
-    padding: 5px;
+    height: 13%;
+    display: flex;
 }
-.box-child-1{
-    width: 80%;
-    height: 80px;
-}
-.box-child-2{
-    width: 20%;
-    height: 80px;
+/*child of box-1*/
+.child-1{
+    flex-basis: 78%;
 }
 
+.child-2{
+    flex-grow: 1;
+}
+/*child of box-1*/
+
 .box-2{
-    height: 35px;
+    height: 50px;
 }
 
 .box-3{
-    display: inline-flex;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
-.box-child-3{
-    height: 164px;
-    width: 60%;
-}
-.box-child-4{
-    height: 80px;
-    width: 200px;
-}
-.box-child-5{
-    height: 80px;
-    width: 200px;
-}
-.box-child-6{
-    height: 80px;
-    width: 200px;
-}
-.box-child-7{
-    height: 80px;
-    width: 200px;
+/*child of box-3*/
+.child-3{
+    height: 140px;
+    width: 50%;
 }
 
+.child-4{
+    width: 20%;
+    height: 60px;
+}
+
+.child-5{
+    width: 20%;
+    height: 60px;
+}
+
+.child-6{
+    width: 20%;
+    height: 60px;
+}
+
+.child-7{
+    width: 20%;
+    height: 60px;
+}
+/*child of box-3*/
+
 .box-4{
-    height: 35px;
+    height: 50px;
 }
 
 .box-5{
-    display: inline-flex;
-}
-.box-child-8{
-    height: 80px;
-    width: 200px;
-}
-.box-child-9{
-    height: 80px;
-    width: 200px;
-}
-.box-child-10{
-    height: 80px;
-    width: 200px;
-}
-.box-child-11{
-    height: 80px;
-    width: 200px;
-}
-.box-child-12{
-    height: 164px;
-    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
+/*child of box-5*/
+.child-8{
+    width: 20%;
+    height: 60px;
+}
+
+.child-9{
+    width: 20%;
+    height: 60px;
+}
+
+.child-10{
+    width: 20%;
+    height: 60px;
+}
+
+.child-11{
+    width: 20%;
+    height: 60px;
+}
+
+.child-12{
+    height: 140px;
+    width: 50%;
+}
+/*child of box-5*/
+
 .box-6{
-    height: 100px;
+    height: 80px;
 }
