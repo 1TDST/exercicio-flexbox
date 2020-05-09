@@ -14,6 +14,9 @@
     padding:  10px;
     max-width: 1100px;
 }
+.box-middle{
+    flex-direction: row;
+}
 
 .box-1{
     display: inline-flex;
@@ -30,4 +33,60 @@
 
 .box-2{
     height: 35px;
+}
+
+.box-3{
+    display: inline-flex;
+}
+.box-child-3{
+    height: 164px;
+    width: 60%;
+}
+.box-child-4{
+    height: 80px;
+    width: 200px;
+}
+.box-child-5{
+    height: 80px;
+    width: 200px;
+}
+.box-child-6{
+    height: 80px;
+    width: 200px;
+}
+.box-child-7{
+    height: 80px;
+    width: 200px;
+}
+
+.box-4{
+    height: 35px;
+}
+
+.box-5{
+    display: inline-flex;
+}
+.box-child-8{
+    height: 80px;
+    width: 200px;
+}
+.box-child-9{
+    height: 80px;
+    width: 200px;
+}
+.box-child-10{
+    height: 80px;
+    width: 200px;
+}
+.box-child-11{
+    height: 80px;
+    width: 200px;
+}
+.box-child-12{
+    height: 164px;
+    width: 60%;
+}
+
+.box-6{
+    height: 100px;
 }
