@@ -21,14 +21,14 @@
 
 .box-1{
   display: flex;
-  width: 68%;
+  width: 67.7%;
   height: 300px;
   margin-right: 15px;
 }
 
 .box-2{
   display: flex;
-  width: 32%;
+  width: 32.3%;
   height: 300px;
   margin-left: 15px;
 }
