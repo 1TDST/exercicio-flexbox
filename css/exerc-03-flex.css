@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
 .container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(79, 210, 145);
+}
+
+.box {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  height: 50px;
+  border: 1px solid;
+}
+
+.box-1 {
   
 }
