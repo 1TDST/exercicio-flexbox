@@ -16,12 +16,12 @@
 }
 
 .top .box-1{
-  flex-grow: 3;
+  flex-grow: 1;
   height: 55vh;
 }
 
 .top .box-2{
-  flex-grow: 1;
+  flex-basis: 27%;
 }
 
 .middle{
@@ -35,4 +35,5 @@
 
 .bottom .box-3{
   height: 25vh;
+  max-width: none;
 }
