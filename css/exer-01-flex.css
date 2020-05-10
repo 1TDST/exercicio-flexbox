@@ -5,6 +5,19 @@
     flex-direction: column;
 }
 
+nav ul{
+  display: flex;
+  list-style: none;
+  background-color: #01000E;
+}
+
+nav li, a{
+  color: #fff;
+  margin: 20px auto;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .box{
   display: block;
   width: auto;
@@ -13,6 +26,7 @@
   padding: 10px;
   max-width: 1100px;
 }
+
 /* Box 1 */
 .box-1{
  /* margin: 0;
@@ -67,4 +81,172 @@
   border-top: 0;
   border-bottom: 0;
   height: 150px;
+}
+
+
+/*Page 2
+---------------------------------------------------------------------------*/
+/*box 1*/
+.Pg2box-1{
+  display: flex;
+  margin: 0;
+  border: 0;
+}
+
+.Pg2child-1{
+  flex-basis: 64.98%;
+  height: 450px;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.Pg2child-2{
+  flex-grow: 2;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+/*box 2*/
+.Pg2box-2{
+  display: flex;
+  margin: 0;
+  border: 0;
+}
+
+.Pg2child-3{
+  flex-basis: 30%;
+  height: 200px;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.Pg2child-4{
+  flex-grow: 3;
+  margin-top: 0;
+}
+
+.Pg2child-5{
+  flex-grow: 3;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+/*box 3*/
+.Pg2box-3{
+  margin: 0;
+  border: 0;
+}
+
+.Pg2child-6{
+  height: 230px;
+  margin: 0;
+}
+
+/*Page 3
+---------------------------------------------------------------------------*/
+/*box 1*/
+.Pg3box-1{
+  display: flex;
+  height: 50%;
+}
+
+.Pg3child-1{
+  flex-basis: 80%;
+}
+
+
+.Pg3child-2{
+  flex-grow: 2;
+}
+
+/*box 2*/
+.Pg3box-2{
+  height: 15%;
+}
+
+/*box3*/
+.Pg3box-3{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.Pg3child-3{
+  flex-basis: 102%;
+  height: 240px;
+}
+
+.Pg3child-4{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Pg3child-5{
+  width: 168.825px;
+}
+
+.Pg3child-6{
+  width: 168.825px;
+}
+
+.Pg3child-7{
+  width: 168.825px;
+}
+
+.Pg3child-8{
+  width: 168.825px;
+}
+
+/*box 4*/
+.Pg3box-4{
+  height: 15%;
+}
+
+
+/*box5*/
+.Pg3box-5{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.Pg3child-9{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Pg3child-10{
+  width: 168.825px;
+}
+
+.Pg3child-11{
+  width: 168.825px;
+}
+
+.Pg3child-12{
+  width: 168.825px;
+}
+
+.Pg3child-13{
+  width: 168.825px;
+}
+
+.Pg3child-14{
+  flex-basis: 102%;
+  height: 240px;
+}
+
+/*box 1*/
+.Pg3box-6{
+  flex-basis: 15%;
 }

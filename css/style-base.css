@@ -16,6 +16,20 @@ h1,h2,h3{
   margin: 20px 10px;
 }
 
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover{
+  color: rgb(161, 41, 41);
+}
+
+.centraliza{
+  width: 75%;
+  margin: 30px auto;
+}
+
 .container{
   display: block;
   width: 1000px;
@@ -24,4 +38,39 @@ h1,h2,h3{
   margin: auto;
   background: #000;
   color: #fff;
+}
+
+
+.titulo{
+  background-image: url(../img/inclussion.jpg);
+  background-size: cover;/*ajusta a imagem dentro do box*/
+  background-position: center;/*imagem fica centralizada*/
+  background-attachment: fixed;/*imagem fica fixa quando rolar a barra*/
+  height: 480px;
+  color: #fff;
+  text-align: center;
+}
+
+.titulo h1{
+  font-size: 37px;
+  font-weight: bold;
+  padding-top: 200px;
+  margin: 0;
+}
+
+.titulo p{
+  font-size: 24px;
+}
+
+footer{
+  height: 200px;
+  background-color: #01000E;
+  background-size: cover;
+  margin-top: 200px;
+}
+
+footer p{
+  color: #fff;
+  text-align: center;
+  padding-top: 175px;
 }
