@@ -7,7 +7,6 @@
 .bloco{
   display: flex;
   flex-direction: row;
-  border: solid 1px #000fff;
 }
 .box{
   display: block;

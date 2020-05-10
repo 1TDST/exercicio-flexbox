@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.bloco{
+  display: flex;
+  flex-direction: row;
+  border: solid 1px #00ff00;
+}
+.box{
+  display: block;
+  width: auto;
+  border: solid 1px #ff0000;
+  margin: 20px;
+  padding: 10px;
+  max-width: 1100px;
+}
