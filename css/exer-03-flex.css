@@ -5,7 +5,19 @@
 .bloco{
   display: flex;
   flex-direction: row;
-  border: solid 1px #00ff00;
+
+}
+.bloco-1{
+  border: solid 1px #ffd300;
+}
+.bloco-2{
+  display: flex;
+}
+.bloco-3{
+  flex-grow: 1;
+  border: solid 1px #00013b;
+  display: flex;
+  flex-wrap: wrap;
 }
 .box{
   display: block;
@@ -14,4 +26,40 @@
   margin: 20px;
   padding: 10px;
   max-width: 1100px;
+}
+.box-1{
+  flex-basis: 70%;
+  height: 90px;
+
+}
+.box-2{
+  flex-grow: 1;
+}
+.box-3{
+  flex-basis: 1000%;
+  height: 60px;
+}
+.box-4{
+  flex-basis: 70%;
+  height: 260px;
+}
+.box-5{
+  flex-basis: 25%;
+  height:25%;
+  width: 25%;
+}
+.box-6{
+  flex-grow: 1;
+}
+.box-7{
+  flex-basis: 25%;
+  height:25%;
+  width: 25%;
+
+}
+.box-8{
+  flex-grow: 1;
+}
+.box-9{
+  flex-grow: 1;
 }
