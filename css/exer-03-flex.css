@@ -2,32 +2,31 @@
 
 .container{
     display: flex;
-
     flex-direction: column ;
 }
 
 .box{
   display: block;
   width: auto;
-  border: solid 1px rgb(230, 30, 91);
+  border: solid 2px rgb(210, 105, 30);
   margin: 10px;
   padding: 10px;
   max-width: 1100px;
 }
 
 .box-1{
-    height: 13%;
-    display: flex;
+  height: 13%;
+  display: flex;
 }
-/*child of box-1*/
+
 .child-1{
-    flex-basis: 78%;
+  flex-basis: 78%;
 }
 
 .child-2{
-    flex-grow: 1;
+  flex-grow: 1;
 }
-/*child of box-1*/
+
 
 .box-2{
     height: 50px;
@@ -39,10 +38,10 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
-/*child of box-3*/
+
 .child-3{
-    height: 140px;
-    width: 50%;
+  height: 140px;
+  width: 50%;
 }
 
 .child-4{
@@ -64,7 +63,7 @@
     width: 20%;
     height: 60px;
 }
-/*child of box-3*/
+
 
 .box-4{
     height: 50px;
@@ -77,7 +76,7 @@
     flex-wrap: wrap;
 }
 
-/*child of box-5*/
+
 .child-8{
     width: 20%;
     height: 60px;
@@ -102,7 +101,6 @@
     height: 140px;
     width: 50%;
 }
-/*child of box-5*/
 
 .box-6{
     height: 80px;
