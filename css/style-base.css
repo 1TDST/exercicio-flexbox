@@ -14,10 +14,18 @@ body{
   font-size: 16px;
 }
 
-h1,h2,h3{
+h1{
   margin: 20px 10px;
 }
 
+a{
+  text-decoration: none;
+}
+ul li{
+  display: inline;
+  padding-top: 30px;
+  margin-left: 20px;
+}
 
 .container{
   margin: auto;
