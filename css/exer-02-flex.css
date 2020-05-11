@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.box{
+  display: block;
+  width: auto;
+  border: solid 2px #ff0962;
+  margin: 20px;
+  padding: 10px;
+  max-width: 1100px;
+}
+
+.box-1{
+  margin: 0;
+  border: 0;
+  display: flex;
+  flex-basis: 50%;
+  width: 96%;
+}
+
+.box-child-1{
+  flex-basis: 90%;
+  height: 95%;
+}
+
+.box-child-2{
+  margin-right: -10px;
+  flex-basis: 40%;
+  height: 95%;
+}
+
+.box-2{
+  display: flex;
+  margin: 0;
+  border: 0;
+  height: 30%;
+}
+
+.box-child-3{
+  flex-grow: 1;
+}
+.box-child-4{
+  flex-grow: 1;
+}
+.box-child-5{
+  flex-grow: 1;
+}
+
+.box-3{
+  display: flex;
+    height: 20%;
+}
