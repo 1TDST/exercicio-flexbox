@@ -5,8 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: rgba(39, 39, 39);
-  color: #ffffff;
 }
 
 body{
@@ -18,12 +16,11 @@ h1,h2,h3{
   margin: 20px 10px;
 }
 
-
 .container{
   margin: auto;
   width: 1000px;
   height: 900px;
   padding: 10px;
-  background-color: rgb(39, 39, 39);
+  background-color: #e8e9e8;
   border: solid 1px #cccccc;
 }
