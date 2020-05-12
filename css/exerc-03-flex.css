@@ -6,6 +6,11 @@
   background-color: rgb(184, 52, 231);
 }
 
+.tio {
+  text-align: center;
+  float: left;
+}
+
 .box {
   display: flex;
   margin: 5px;
@@ -19,12 +24,12 @@
   height: 8%;
 }
 
-.box-child-1{
+.child-1{
   flex-basis: 1200px;
 
 }
 
-.box-child-2 {
+.child-2 {
   width: 30%;
   flex-grow: 1;
 }
@@ -34,16 +39,71 @@
 }
 
 .box-3 {
-  height: 20%;
+  height: 15%;
 }
 
-.child-3 {
+.box-child-3 {
+  flex-basis: 600px;
+  flex-grow: 1;
 }
 
+.box-auxiliar {
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 2;
+}
 
+.box-child-4 {
+  width: 145px;
+}
+
+.box-child-5 {
+  width: 145px;
+}
+
+.box-child-6 {
+  width: 145px;
+}
+
+.box-child-7 {
+  width: 145px;
+}
 
 .box-4 {
   flex-basis: 5%;
+}
+
+
+.box-5 {
+  height: 15%;
+  flex-direction: row-reverse;
+}
+
+.child-8 {
+  flex-basis: 990px;
+  flex-grow: 1;
+}
+
+.box-auxiliar {
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 2;
+}
+
+.box-child-9{
+  width: 145px;
+}
+.box-child-10{
+  width: 145px;
+
+}
+.box-child-11{
+  width: 145px;
+}
+.box-child-12 {
+  width: 145px;
 }
 
 .box-6 {

@@ -5,7 +5,10 @@
   flex-direction: column;
   background-color: rgb(16, 183, 205);
 }
-
+.tio {
+  text-align: center;
+  float: left;
+}
 
 .box {
   color: #fff;
