@@ -20,6 +20,10 @@
   display: flex;
 }
 
+.box-child-1 img {
+  width: 90%;
+}
+
 .box-child-1 {
   flex-basis: 612px;
   height: 420px;

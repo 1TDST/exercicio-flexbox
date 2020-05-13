@@ -3,12 +3,14 @@
 .container {
   display: flex;
   flex-direction: column;
+  background-color: #a82929;
 }
 
 .box {
   display: block;
   width: auto;
-  border: solid 1px #ff00b8;
+  border: solid 1px #000000;
+  transition: all 0.9s;
   margin: 5px;
   padding: 10px;
   max-width: 1100px;
