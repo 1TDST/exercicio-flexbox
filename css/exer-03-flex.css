@@ -3,6 +3,7 @@
 .container{
   display: flex;
   flex-direction: column;
+  height: 1100px;
 }
 
 .box{
@@ -28,30 +29,47 @@
   flex-grow: 1;
 }
 .box2{
-    height: 60px;
+    height: 100px;
 }
 
 .box3{
   display: flex;
-  flex-wrap: wrap;
+
 }
 .box-filho-3{
-  flex-grow: 4;
-  height: 300px;
-  flex-basis: 375px;
-}
-.box-filho-4{
+  flex-basis: 600px;
   flex-grow: 1;
-  height: 150px;
-  flex-basis: 225px;
+}
+.quadrado{
+  flex-basis: 60%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-grow: 2;
+ }
+
+.box-filho-4{
+  height: 50px;
+  width: 145px;
 }
 .box-filho-5{
-  flex-grow: 1;
-  height: 150px;
-  flex-basis: 225px;
+  height: 50px;
+  width: 145px;
 }
 .box-filho-6{
-  flex-grow: 1;
-  height: 150px;
-  flex-basis: 225px;
+  height: 50px;
+  width: 145px;
+}
+.box-filho-7{
+  height: 50px;
+  width: 145px;
+}
+
+.box4{
+  height: 100px;
+}
+.box5{
+  display: flex;
+}
+.box6{
+  height: 300px;
 }
