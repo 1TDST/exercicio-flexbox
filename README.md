@@ -1,13 +1,14 @@
-# exercicio-flexbox
-## Feedback exercicio
+# Flexbox
+## Exercises
 
-Dificuldades nessa atividade
+ []Exercise 1
+    []html
+    []css
+ []Exercise 2
+    []html
+    []css
+ []Exercise 3
+    []html
+    []css
 
-- [X] flex-wrap: nowrap|wrap
-- [ ] display: flex;
-- [ ] flex-basis
-- [ ] flex-grow
 
-Mas nada impossível o desafio foi legal, principalmete no exercício 3
-
-Copyright (c) 2018 Copyright Holder All Rights Reserved.
