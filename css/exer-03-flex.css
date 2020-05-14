@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 70em;
+}
+
+.box{
+  display: block;
+  width: auto;
+  border: solid 1px #ff0000;
+  margin: 20px;
+  padding: 10px;
+  max-width: 1100px;
+}
+
+.box-1, .box-2, .box-3, .box-4, .box-5 {
+  display: flex;
+}
+
+.box-1 {
+  padding: 0;
+}
+
+.box-1-child-1 {
+  flex-basis: 75%;
+  height: 5em;
+}
+
+.box-1-child-2 {
+  flex-grow: 1;
+}
+
+.box-2 {
+  height: 3em;
+}
+
+.box-3 {
+  padding: 0.5em;
+}
+
+.box-3-child-1 {
+  flex-basis: 55%;
+}
+
+.box-3-child-2, .box-3-child-3, .box-5-child-3 {
+  flex-grow: 1;
+}
+
+.box-3-child-2-child, .box-3-child-3-child, .box-5-child-1-child, .box-5-child-2-child {
+  flex-grow: 1;
+  height: 5em;
+}
+
+.box-4 {
+  height: 3em;
+}
+
+.box-5-child-1, .box-5-child-2 {
+  flex-basis: 20%;
+}
+
+.box-6 {
+  height: 7em;
+}
