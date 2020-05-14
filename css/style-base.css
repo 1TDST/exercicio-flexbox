@@ -8,7 +8,7 @@
 }
 
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: Impact, Charcoal, sans-serif;
   font-size: 16px;
 }
 
@@ -21,6 +21,6 @@ h1,h2,h3{
   width: 1000px;
   height: 1000px;
   padding: 10px;
-  background-color: #e8e9e8;
+  background-color: #FAFAD2;
   border: solid 1px #cccccc;
 }
