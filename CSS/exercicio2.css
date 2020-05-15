@@ -1,0 +1,41 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.box{
+  border: solid 2px rgb(53,78,97);
+  margin:20px;
+  padding: 10px;
+  max-width: 1100px;
+  display: block;
+}
+
+
+.top .box-1{
+  flex-grow: 1;
+  height: 55vh;
+}
+
+.middle{
+  display: flex;
+}
+
+.middle .boxes{
+  flex-grow: 1;
+  height: 25vh;
+}
+
+.top{
+  display: flex;
+}
+
+.top .box-2{
+  flex-basis: 27%;
+}
+
+
+.bottom .box-3{
+  height: 25vh;
+  max-width: none;
+}
