@@ -5,9 +5,9 @@
    -[X]html
    -[X]css
    
--[]Exercise 2
-   -[]html
-   -[]css
+-[X]Exercise 2
+   -[X]html
+   -[X]css
 
 -[]Exercise 3
    -[]html
