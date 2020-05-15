@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@charset "UTF-8";
 
 .container{
   display: flex;
@@ -8,7 +9,7 @@
 .box{
 display: block;
 width: auto;
-border: solid 1px #4682B4;
+border: 2px solid #4682B4;
 margin: 15px;
 padding: 10px;
 max-width: 1100px;
@@ -17,38 +18,46 @@ max-width: 1100px;
 .box-1{
   display: flex;
   border-style: none;
+  margin: 0%;
 }
 
 /**child of box1 **/
 .box-child-1{
   flex-basis: 700px;
   height: 300px;
+  margin: 1%;
 }
 .box-child-2{
   flex-basis: 320px;
+  margin: 1%;
 }
 
 .box-2{
   display: flex;
   border-style: none;
+  margin: 0%;
 }
 
 /**child of box2 **/
 .box-child-3{
   flex-basis: 330px;
   height: 150px;
+  margin: 1%;
 }
 .box-child-4{
   flex-basis: 330px;
   height: 150px;
+  margin: 1%;
 
 }
 .box-child-5{
   flex-basis: 330px;
   height: 150px;
+  margin: 1%;
 }
 
 .box-3{
   flex-basis: 12%;
+  margin: 1.5%;
 
 }
